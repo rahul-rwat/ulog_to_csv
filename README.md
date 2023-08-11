@@ -1,8 +1,5 @@
 # uLog to CSV Converter
 
-!https://img.shields.io/badge/python-3.x-blue.svg
-
-!https://img.shields.io/badge/license-MIT-green.svg
 
 The uLog to CSV Converter is a Python script that allows you to easily convert uLog files to CSV format, making it convenient for data analysis. uLog files are commonly used in the field of robotics and embedded systems to log data from various sensors and components. Converting them to CSV format can simplify the process of data manipulation and analysis using popular tools like Excel, pandas, and more.
 
