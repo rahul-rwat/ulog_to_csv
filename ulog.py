@@ -4,7 +4,7 @@ import pyulog
 import pandas as pd
 
 #location of ulog file
-ulog_file = r"C:\Users\Rahul\OneDrive\Desktop\ENORD\ulogtocsv\log100.ulog"
+ulog_file = r"ulog.ulog"
 
 data = pyulog.ULog(ulog_file)
 data_list = []
@@ -20,6 +20,6 @@ for d in data.data_list:
 
 df = pd.DataFrame(data_list, columns=field_names)
 #locaiton of output file
-csv_file = r"C:\Users\Rahul\OneDrive\Desktop\ENORD\ulogtocsv\output.csv"
+csv_file = r"output.csv"
 df.to_csv(csv_file, index=False)
 
